@@ -8,4 +8,4 @@ function oddDigits(numb) {
     } else {
       return oddDigits((numb - last) / 10);
     }
-  }
+}

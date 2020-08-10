@@ -1,4 +1,27 @@
+ html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .movies-list {
- border:solid #00b388;
- background-color: silver;
- }
+ border: solid #00b388;
+}
+
+.movies-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+ 
+.movies-list {
+    display: flex;
+    align-items: center;
+ } 
+
+.movies-list p{
+    background: #c5c1c1;
+    padding: 15px;
+    border-radius: 5px;
+} 
+  

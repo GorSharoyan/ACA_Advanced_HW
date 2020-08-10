@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books.api</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+        <h2>Books Search</h2>
+         <div class='search-bar'>
+        <input id='search-input' placeholder="book name"/>
+        <button id='search-button'>Search</button>
+        </div>
+        <div id='search-result'>
+            <div>
+              <h3>Search Results Count:</h3>
+            </div>
+             <div>
+            <h3 id=num-found><h3>
+            </div>
+        </div>
+    </header>
+    <main>
+        <table id='table'>
+            <thead>
+                <tr>
+            <th><h2>Author</h2></th>
+            <th><h2>Title</h2></th>
+            <th><h2>First Publish Year</h2></th>
+            <th><h2>Subject</h2></th>
+                </td>
+            </thead>
+         <tbody class='books-info'>
+        </tbody>
+        <tfoot id='pagination'></tfoot>
+        </table>
+     </main>
+    <footer class='main-footer'>
+          <p>(c)Copyrght Gor Sharoyan</p>
+    </footer> 
+</body>
+ 
+<script src='./script.js'></script>
+</html>
